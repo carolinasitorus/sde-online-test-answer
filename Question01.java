@@ -3,7 +3,7 @@ import java.util.ArrayList;
 public class Question01 {
     public static void main(String[] args) {
         Question01 solution = new Question01();
-        System.out.println(solution.getSelfNumbersTotal(5000));
+        System.out.println("The sum of all self-numbers which are bigger than 0 and smaller than 5000 : " + solution.getSelfNumbersTotal(5000));
     }
 
     public int getSelfNumbersTotal(int Number) {
