@@ -59,8 +59,8 @@ public class Question02 {
                 }
             }
         }
-        System.out.println("\n----------------------------------\nMaximum Gunner that can be allocated:" + maxGunner);
-        System.out.println("All of Pattern to alocated those maximum gunner: " + numberofWaysMaximumGunnerPattern.size());
+        System.out.println("\n 01. Maximum Gunman that can be placed in the room: " + maxGunner);
+        System.out.println("\n 02.Maximum number of ways: " + numberofWaysMaximumGunnerPattern.size());
         for (int k = 0; k < numberofWaysMaximumGunnerPattern.size(); k++) {
             int p = k + 1;
             System.out.println("\nPattern: " + p + "\n----------");
